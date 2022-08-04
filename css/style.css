@@ -1,0 +1,512 @@
+body {
+    background-color: #fafafa;
+}
+
+.nav-link-list {
+    width: 35%;
+}
+
+@font-face {
+    src: url('../fonts/Poppins-Medium.ttf');
+    font-family: Poppins-Medium;
+}
+
+.navbar-nav li a {
+    color: #232631;
+    font-family: Poppins-Medium;
+    font-size: 16px;
+}
+
+.active-nav-link {
+    border-bottom: 2px solid #5A4FCF;
+}
+
+#BrandName {
+    margin-left: 8px;
+}
+
+@font-face {
+    src: url('../fonts/Poppins-SemiBold.ttf');
+    font-family: Poppins-SemiBold;
+}
+
+.btn-login {
+    color: #5A4FCF;
+    background-color: rgba(90, 79, 207, 10%);
+    font-family: Poppins-SemiBold;
+    font-size: 16px;
+}
+
+.brand-name {
+    width: 30%;
+}
+
+.brand-name svg {
+    color: #5A4FCF;
+    width: 34px;
+    height: 34px;
+}
+
+@font-face {
+    src: url('../fonts/Nunito-ExtraBold.ttf');
+    font-family: Nunito-ExtraBold;
+}
+
+.brand-name span {
+    font-family: Nunito-ExtraBold;
+    color: #232631;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.search-and-login {
+    width: 35%;
+}
+
+.input-search {
+    color: #858585;
+    background-color: #fff;
+    width: 322px;
+    font-family: Poppins-Medium;
+    font-size: 16px;
+}
+
+.carousel-item img,
+.carousel-caption {
+    border-radius: 24px;
+}
+
+.carousel-caption {
+    width: 400px;
+    margin-bottom: 155px;
+    position: absolute;
+    left: 48px;
+    margin-left: -80px;
+}
+
+@font-face {
+    src: url('../fonts/Poppins-Regular.ttf');
+    font-family: Poppins-Regular;
+}
+
+.ratings,
+.price-and-location {
+    position: relative;
+    left: 40px;
+}
+
+.stars-rating {
+    color: #FFB800;
+    border-radius: 1.5px
+}
+
+.total-stars {
+    font-family: Poppins-Regular;
+    font-weight: 600;
+    color: #FFB800;
+    font-size: 16px;
+    margin-left: 4px;
+}
+
+.detail-rating {
+    color: #aa9494;
+    font-family: Poppins-Regular;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 4px;
+}
+
+#restaurant-name {
+    font-family: Poppins-Regular;
+    font-weight: 600;
+    font-size: 24px;
+    color: #130F26;
+    width: 238px;
+    height: 36px;
+}
+
+#price-range {
+    font-family: Poppins-Regular;
+    font-weight: 600;
+    font-size: 20px;
+    color: #130F26;
+    line-height: 0;
+}
+
+#restaurant-location svg {
+    color: #656565;
+    width: 17px;
+    height: 20px;
+}
+
+#restaurant-location p {
+    font-family: Poppins-Regular;
+    font-weight: 400;
+    font-size: 18px;
+    color: #656565;
+}
+
+.reservation {
+    position: relative;
+    left: 40px;
+}
+
+.reservation button {
+    color: #130F26;
+    font-family: Poppins-Regular;
+    font-weight: 500;
+    background-color: #FDC886;
+}
+
+.reservation p {
+    color: #656565;
+}
+
+.reservation span {
+    font-family: Poppins-Regular;
+}
+
+.extra-discount,
+.come-and-eat,
+.no-extra-fee,
+.guaranteed-cleanlines {
+    background-color: #FFF4E7;
+    width: 60px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.benefit .card {
+    border: none;
+}
+
+.benefit .special {
+    color: #5A4FCF;
+    font-family: Poppins-SemiBold;
+    font-size: 16px;
+}
+
+.benefit .why-choose {
+    color: #232631;
+    font-family: Poppins-SemiBold;
+    font-size: 28px;
+}
+
+.card-title {
+    font-family: Poppins-SemiBold;
+    color: #232631;
+    font-size: 18px;
+}
+
+.card-text {
+    color: #656565;
+    font-size: 16px;
+    font-family: Poppins-Regular;
+}
+
+.view-details {
+    color: #232631;
+    font-family: Poppins-SemiBold;
+    font-size: 16px;
+    width: 100%;
+}
+
+.active-detail {
+    background-color: #FDC886;
+}
+
+.features {
+    margin-top: 100px;
+}
+
+.feature-info {
+    width: 30%;
+}
+
+.top-3-features {
+    color: #5A4FCF;
+    font-family: Poppins-SemiBold;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.most-popular-resto-title {
+    color: #232631;
+    font-family: Poppins-SemiBold;
+    font-size: 28px;
+}
+
+.feature-description {
+    color: #656565;
+    font-size: 16px;
+    font-family: Poppins-Regular;
+}
+
+#allRestaurant {
+    background-color: #FDC886;
+    color: #232631;
+    font-size: 16px;
+    font-family: Poppins-SemiBold;
+    width: 250px;
+}
+
+.feature-cards {
+    width: 70%;
+}
+
+.feature-cards .card,
+.restaurants .card {
+    border-radius: 24px;
+    height: 475px;
+    overflow: hidden;
+}
+
+.feature:nth-child(1) {
+    width: 50%;
+}
+
+.feature:nth-child(2) {
+    width: 25%;
+}
+
+.feature:nth-child(3) {
+    width: 25%;
+}
+
+.image-caption-feature,
+.restaurant-caption {
+    position: absolute;
+    width: 85%;
+    padding: 15px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 24px;
+}
+
+.balorant-ratings,
+.restaurant-ratings {
+    position: relative;
+    left: 10px;
+}
+
+.balorant-ratings svg,
+.restaurant-ratings svg {
+    color: #FFB800;
+    border-radius: 1.5;
+}
+
+.balorant-ratings-number,
+.restaurant-ratings-number {
+    color: #FFB800;
+    margin-left: 5px;
+    font-family: Poppins-SemiBold;
+    font-size: 16px;
+}
+
+.response-total {
+    color: #656565;
+    margin-left: 5px;
+    font-family: Poppins-Regular;
+    font-size: 16px;
+}
+
+.balorant-place-and-name,
+.restaurant-name-and-price {
+    position: relative;
+    left: 10px;
+}
+
+.balorant-place-and-name p:nth-child(1),
+.restaurant-name-and-price p:nth-child(1) {
+    color: #232631;
+    font-family: Poppins-SemiBold;
+    font-size: 18px;
+    line-height: 0;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.balorant-place-and-name p:nth-child(2),
+.restaurant-name-and-price p:nth-child(2) {
+    color: #656565;
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    line-height: 0;
+}
+
+.detail-or-next-info {
+    position: relative;
+    right: 10px;
+}
+
+.detail-or-next-info button {
+    color: #130F26;
+    background-color: #FDC886;
+}
+
+.restaurant-based-by-city {
+    margin-top: 100px;
+}
+
+.restaurant-near-you-text p:nth-child(1) {
+    color: #5A4FCF;
+    font-family: Poppins-SemiBold;
+    font-size: 16px;
+}
+
+.restaurant-near-you-text p:nth-child(2) {
+    color: #232631;
+    font-family: Poppins-SemiBold;
+    font-size: 28px;
+    line-height: 0;
+}
+
+.button-location-near-you {
+    background-color: #F2F2F2;
+}
+
+.button-location-near-you svg {
+    color: #656565;
+}
+
+select {
+    color: #656565;
+    font-size: 16px;
+    font-family: Poppins-Medium;
+}
+
+option {
+    background-color: #F2F2F2;
+}
+
+.chef-image {
+    border-radius: 24px;
+}
+
+.experience {
+    width: 180px;
+    height: 200px;
+    border-radius: 24px;
+    top: 40px;
+    left: 450px;
+}
+
+.experience img {
+    background-color: #FFF7ED;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.experience p.years {
+    color: #232631;
+    font-size: 18px;
+    font-family: Poppins-SemiBold;
+}
+
+.experience p.text-experience {
+    color: #656565;
+    font-size: 16px;
+    font-family: Poppins-Regular;
+    line-height: 0;
+}
+
+.work-at-restaurant {
+    border-radius: 24px;
+    background-color: #fff;
+    width: 330px;
+    height: 180px;
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+}
+
+.work-place-image img,
+.work-place-image {
+    border-radius: 24px;
+}
+
+.chef-name-and-restaurant p:nth-child(1) {
+    color: #656565;
+    font-size: 16px;
+    font-family: Poppins-Regular;
+}
+
+.chef-name-and-restaurant p:nth-child(2) {
+    color: #232631;
+    font-size: 18px;
+    font-family: Poppins-SemiBold;
+    line-height: 0;
+    margin-top: -5px;
+    margin-bottom: 50px;
+}
+
+.chef-name-and-restaurant a {
+    font-family: Poppins-SemiBold;
+    font-size: 16px;
+    color: #FDC886;
+}
+
+.expert-chefs p:nth-child(1) {
+    color: #5A4FCF;
+    font-family: Poppins-SemiBold;
+    font-size: 18px;
+}
+
+.expert-chefs p:nth-child(2) {
+    color: #232631;
+    font-family: Poppins-SemiBold;
+    font-size: 32px;
+    line-height: 0;
+}
+
+.top-4-expert .card {
+    border-radius: 24px;
+    background-color: #fafafa;
+    border: none;
+}
+
+.top-4-expert .card button {
+    display: none;
+}
+
+.top-4-expert .card.chef-active-profile {
+    background-color: #fff;
+}
+
+.top-4-expert .card button.chef-active-profile {
+    display: block;
+}
+
+.chefs button {
+    color: #232631;
+    font-family: Poppins-SemiBold;
+    font-size: 16px;
+    background-color: #FDC886;
+}
+
+.chef p:nth-child(1) {
+    color: #656565;
+    font-size: 16px;
+    font-family: Poppins-Medium;
+}
+
+.chef p:nth-child(2) {
+    color: #232631;
+    font-size: 22px;
+    font-family: Poppins-SemiBold;
+    line-height: 0;
+}
+
+.chef p:nth-child(3) {
+    color: #656565;
+    font-size: 16px;
+    font-family: Poppins-Regular;
+}
+
+.chef-profile button {
+    color: #FDC886;
+    font-family: Poppins-SemiBold;
+    font-size: 16px;
+    background-color: #fff;
+}
